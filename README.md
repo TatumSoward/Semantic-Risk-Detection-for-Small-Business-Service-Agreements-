@@ -25,10 +25,10 @@ To achieve a <b>Precision and Recall score of 0.88+</b> on identifying high-risk
 ## Schedule
 <b>Week 1-2 </b>Code a functioning clause classification model using Legal-BERT and CUAD ✅<br>
 <b>Week 3 </b>Implementing FAISS comparison, flagging problematic clauses ✅<br>
-<b>Week 4 </b>Build an UI with document uploader and highlighted text output using Streamlit ❌<br>
+<b>Week 4 </b>Build an UI with document uploader and highlighted text output using Streamlit ✅<br>
 <b>Week 5 </b>Tweak and refine to hit 0.88 Precision metric ❌<br>
 <b>Week 6 </b>Demo prep, slides, video, ensuring that the demo will work the day of ❌<br>
-## Progress (as of 2026-03-02)
+## Progress (as of 2026-04-08)
 ### Completed
 * <b>cuad_clause_classification.ipynb:</b> Test code for the set-up of Legal-BERT.
   * Classifies the meaning of sentences in legal documents.
@@ -40,8 +40,8 @@ To achieve a <b>Precision and Recall score of 0.88+</b> on identifying high-risk
   * Beginning of a full pipeline.
 * <b>version1.ipynb:</b> First version of a full pipeline.
 * <b>NLP_Project_Code.ipynb:</b> Cleaned up version of version1.ipynb, it contains multiple fine-tuned versions of the pipeline to test performance.
+  * Save preprocessing pipeline and model as .pkl files and deploy on the cloud.
+  * Create a UI to upload .pdf to the app using Streamlit.
+  * Have an output that highlights risky sentences in the original location in a .pdf file.
 ### To Do
-* Save preprocessing pipeline and model as .pkl files and deploy on the cloud.
-* Create a UI to upload .pdf to the app using Streamlit.
-* Have an output that highlights risky sentences in the original location in a .pdf file.
 * Play with hyperparameters to improve model performance to 0.88 Precision/Recall goal.
